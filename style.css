@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.monopage {
+    height: 100vh;
+}
+
+.inline-block {
+    background: rgb(122, 209, 122);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.3rem 0;
+}
+
+.ai-reply {
+    text-align: right;
+}
+
+.inline-block-blue {
+    text-align: left;
+    background: rgb(127, 127, 224);
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 0.3rem 0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+#chat-history {
+    height: calc(100vh - 20rem);
+    width: 95%;
+    margin: 0 auto;
+    box-shadow: inset 2px 2px 5px black;
+    padding: 1rem;
+    overflow-x: auto;
+    border-radius: 5px;
+}
+
+.center {
+    text-align: center;
+}
+
+#chat-msg {
+    width: 90%;
+    margin: 0 auto;
+    height: 3rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 5px;
+}
